@@ -48,6 +48,7 @@ void GameManager::destroyAll(){
 }
 
 void GameManager::runGame() {
+
     createAssets();
     while (window.isOpen()) {
         if(!GameEvents.gameEnd){
@@ -58,6 +59,7 @@ void GameManager::runGame() {
         }
         updateSprites();
         handleEventInput();
+
         draw();
     }
 }
