@@ -1,2 +1,2 @@
-echo "run" >> .gitignore
-echo "*.o" >> .gitignore
+run
+*.o

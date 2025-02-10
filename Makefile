@@ -8,7 +8,7 @@ LDFLAGS = -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml
 # Source files and target
 SRC = main.cpp game/game.cpp game/global.cpp assets/sprites/sprites.cpp assets/fonts/fonts.cpp assets/sound/sound.cpp 
 OBJ = $(SRC:.cpp=.o)
-TARGET = ASAtut
+TARGET = run
 
 # Build target
 all: $(TARGET)
