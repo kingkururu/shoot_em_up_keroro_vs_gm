@@ -12,7 +12,6 @@
 #include "sprites.hpp"
 #include "sound.hpp"
 #include "fonts.hpp"
-#include "global.hpp"
 
 class GameManager {
 public:
