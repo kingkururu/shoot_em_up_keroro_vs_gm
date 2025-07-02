@@ -10,7 +10,7 @@ At the end of the game, the total elapsed time will show. Press B if you want to
 
 ---------------------------------------------------------------------------------- ASSETS SOURCES
   - Sound assets are from Mobile Suit Gundam osts and soundeffects.
-  - Player sprite is Keroro in png
+  - Player sprite is Keroro in png https://www.models-resource.com/pc_computer/keroropangpang/model/22953/?source=genre 
   - Enemy "robots" are RGM 78 GM from Mobile Suit Gundam
 
 ----------------------------------------------------------------------------------- GAME PLAY SCREENSHOTS
