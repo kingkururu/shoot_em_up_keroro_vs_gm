@@ -1,5 +1,4 @@
 This is my first mini game written in C++ and SFML.
-This is configured in Xcode only, and can be played with keyboard inputs like WASD keys and clicking on screen.
 
 ---------------------------------------------------------------------------------- HOW TO PLAY
 
