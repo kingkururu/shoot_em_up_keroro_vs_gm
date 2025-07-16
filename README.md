@@ -90,8 +90,8 @@ keroro-vs-gm/
 ├── assets/        # Game assets (sprites, sounds)
 ├── game/          # Core logics
 ├── main           # Entry point
-├── .gitignore           # Entry point
-├── ReadMe           # Entry point
+├── .gitignore     # Entry point
+├── ReadMe         # Entry point
 └── Makefile       # Build configuration
 ```
 
