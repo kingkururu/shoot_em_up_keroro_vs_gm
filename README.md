@@ -1,18 +1,106 @@
-This is my first mini game written in C++ and SFML.
+# Keroro vs. GM 🎮
 
----------------------------------------------------------------------------------- HOW TO PLAY
+A 2D space shoot em up game built with C++ and SFML, featuring Keroro battling against Mobile Suit GM.
 
-In order to win, shoot every GM (robot-like-sprites) before they touch the player (you) by clicking on the screen to launch bullets.
-You can move through space using WASD keys.
-
-At the end of the game, the total elapsed time will show. Press B if you want to restart
-
----------------------------------------------------------------------------------- ASSETS SOURCES
-  - Sound assets are from Mobile Suit Gundam osts and soundeffects.
-  - Player sprite is Keroro in png https://www.models-resource.com/pc_computer/keroropangpang/model/22953/?source=genre 
-  - Enemy "robots" are RGM 78 GM from Mobile Suit Gundam
-
------------------------------------------------------------------------------------ GAME PLAY SCREENSHOTS
+## GAME PLAY SCREENSHOTS
 <img width="1470" alt="Screenshot 2024-09-01 at 7 35 31 PM" src="https://github.com/user-attachments/assets/52520287-4f17-474d-9d34-e3a3b21970fa">
 <img width="1470" alt="Screenshot 2024-09-01 at 7 34 05 PM" src="https://github.com/user-attachments/assets/0c98634b-fbdb-4fbe-b5ad-dc8942557dd3">
 <img width="1470" alt="Screenshot 2024-09-01 at 7 34 38 PM" src="https://github.com/user-attachments/assets/f87599fd-e5e7-4b35-903a-be09aa12ce03">
+
+## 🎯 Objective
+Eliminate all incoming GM robots before they reach your character. Survive as long as possible and aim for the fastest completion time!
+
+## 🎮 How to Play
+- **Movement**: Use `WASD` keys to navigate through space
+- **Shooting**: Click anywhere on screen to fire bullets toward your mouse cursor
+- **Goal**: Destroy all GM enemies before they touch you
+- **Restart**: Press `B` after game over to play again
+
+## 🛠️ Technical Features
+- **Engine**: SFML (Simple and Fast Multimedia Library)
+- **Language**: C++
+- **Architecture**: Object-oriented design with modular structure
+- **Physics**: Custom AABB collision detection system
+- **Memory Management**: Manual memory allocation and cleanup
+- **Audio**: Integrated sound effects and background music
+
+## 🎨 Assets
+- **Player Sprite**: Keroro character from [Models Resource](https://www.models-resource.com/pc_computer/keroropangpang/model/22953/?source=genre)
+- **Enemy Sprites**: RGM-78 GM from Mobile Suit Gundam
+- **Audio**: Mobile Suit Gundam OST and sound effects
+
+## 🚀 Building & Running
+
+### Prerequisites
+- SFML 2.x library
+- C++ compiler (GCC/Clang)
+- Make
+
+### Installation
+
+1. **Install SFML**:
+   ```bash
+   make install
+   ```
+
+2. **If the above fails, install via Homebrew (macOS)**:
+   ```bash
+   # Install Homebrew if not already installed
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   
+   # Install SFML
+   brew install sfml@2
+   ```
+
+3. **Configure PATH (macOS)**:
+   - Go to **System Preferences > Security & Privacy > General**
+   - Enable "Allow applications downloaded from App Store and identified developers"
+   
+   - For Zsh users:
+     ```bash
+     nano ~/.zshrc
+     ```
+   - For Bash users:
+     ```bash
+     nano ~/.bash_profile
+     ```
+   
+   Add these lines:
+   ```bash
+   export PATH="/opt/homebrew/bin:$PATH"
+   export PATH="/opt/homebrew/opt/sfml/bin:$PATH"
+   ```
+
+### Building the Game
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/keroro-vs-gm
+cd keroro-vs-gm
+
+# Build using make
+make
+
+# Run the game
+./keroro_vs_gm
+```
+
+## 📁 Project Structure
+```
+keroro-vs-gm/
+├── src/           # Source code files
+├── assets/        # Game assets (sprites, sounds)
+├── include/       # Header files
+└── Makefile       # Build configuration
+```
+
+## 🎯 Key Learning Outcomes
+- Game development fundamentals with SFML
+- Object-oriented programming in C++
+- 2D graphics rendering and sprite management
+- Real-time input handling and game loops
+- Collision detection algorithms
+- Audio system integration
+
+---
+
+*This was my first game project using SFML - a learning experience in C++ game development and graphics programming.*
