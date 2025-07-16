@@ -68,7 +68,7 @@ Eliminate all incoming GM robots before they reach your character. Survive as lo
    Add these lines:
    ```bash
    export PATH="/opt/homebrew/bin:$PATH"
-   export PATH="/opt/homebrew/opt/sfml/bin:$PATH"
+   export PATH="/opt/homebrew/opt/sfml@2/bin:$PATH"
    ```
 
 ### Building the Game
