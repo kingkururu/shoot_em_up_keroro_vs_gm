@@ -87,9 +87,11 @@ make
 ## 📁 Project Structure
 ```
 keroro-vs-gm/
-├── src/           # Source code files
 ├── assets/        # Game assets (sprites, sounds)
-├── include/       # Header files
+├── game/          # Core logics
+├── main           # Entry point
+├── .gitignore           # Entry point
+├── ReadMe           # Entry point
 └── Makefile       # Build configuration
 ```
 
