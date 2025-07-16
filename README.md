@@ -81,7 +81,7 @@ cd keroro-vs-gm
 make
 
 # Run the game
-./keroro_vs_gm
+./run
 ```
 
 ## 📁 Project Structure
