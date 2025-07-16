@@ -74,8 +74,8 @@ Eliminate all incoming GM robots before they reach your character. Survive as lo
 ### Building the Game
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/keroro-vs-gm
-cd keroro-vs-gm
+git clone https://github.com/kingkururu/shoot-em-up-keroro-vs-gm
+cd shoot-em-up-keroro-vs-gm (location will be different)
 
 # Build using make
 make
