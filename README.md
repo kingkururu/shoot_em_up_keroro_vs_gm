@@ -100,7 +100,3 @@ keroro-vs-gm/
 - Real-time input handling and game loops
 - Collision detection algorithms
 - Audio system integration
-
----
-
-*This was my first game project using SFML - a learning experience in C++ game development and graphics programming.*
