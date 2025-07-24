@@ -27,7 +27,7 @@ Eliminate all incoming GM robots before they reach your character. Survive as lo
 ## 🎨 Assets
 - **Player Sprite**: Keroro character from [Models Resource](https://www.models-resource.com/pc_computer/keroropangpang/model/22953/?source=genre)
 - **Enemy Sprites**: RGM-78 GM from Mobile Suit Gundam
-- **Audio**: Mobile Suit Gundam OST and sound effects
+- **Audio**: Mobile Suit Gundam OST and sound effects from freesound.org
 
 ## 🚀 Building & Running
 
