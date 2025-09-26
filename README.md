@@ -84,7 +84,7 @@ make
 ./run
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```
 keroro-vs-gm/
 ├── assets/        # Game assets (sprites, sounds)
