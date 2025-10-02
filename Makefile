@@ -1,5 +1,3 @@
-# Simple Makefile
-
 # Compiler and linker flags
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -w \
