@@ -1,7 +1,7 @@
 # Keroro vs. GM 
 
 A 2D space shoot em up game built with C++ and SFML, featuring Keroro battling against Mobile Suit GM.
--**SFML**: https://github.com/SFML/SFML 
+- **SFML**: https://github.com/SFML/SFML 
 
 ## GAME PLAY SCREENSHOTS
 <img width="999" height="822" alt="Image" src="https://github.com/user-attachments/assets/6510405a-2d3a-41be-aca7-0bd46a0fb7db" />
