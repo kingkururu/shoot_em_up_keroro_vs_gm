@@ -14,15 +14,12 @@ Eliminate all incoming GM robots before they reach your character. Survive as lo
 - **Movement**: Use `WASD` keys to navigate through space
 - **Shooting**: Click anywhere on screen to fire bullets toward your mouse cursor
 - **Goal**: Destroy all GM enemies before they touch you
-- **Restart**: Press `B` after game over to play again
 
 ## Technical Features
-- **Engine**: SFML (Simple and Fast Multimedia Library)
-- **Language**: C++
 - **Architecture**: Object-oriented design with modular structure
 - **Physics**: Custom AABB collision detection system
 - **Memory Management**: Manual memory allocation and cleanup
-- **Audio**: Integrated sound effects and background music
+- **Audio**: Integrated sound effects and background music provided by SFML
 
 ## Assets
 - **Player Sprite**: Keroro character from [Models Resource](https://www.models-resource.com/pc_computer/keroropangpang/model/22953/?source=genre)
@@ -43,7 +40,7 @@ Eliminate all incoming GM robots before they reach your character. Survive as lo
    # Install Homebrew if not already installed
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    
-   # Install SFML
+   # Install SFML if there is trouble
    brew install sfml@2
    ```
 
@@ -82,7 +79,7 @@ make
 ## Project Structure
 ```
 keroro-vs-gm/
-├── assets/        # Game assets (sprites, sounds)
+├── assets/        # Game assets 
 ├── game/          # Core logics
 ├── main           # Entry point
 ├── .gitignore     
