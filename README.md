@@ -38,12 +38,7 @@ Eliminate all incoming GM robots before they reach your character. Survive as lo
 
 ### Installation
 
-1. **Install SFML**:
-   ```bash
-   make install
-   ```
-
-2. **If the above fails, install via Homebrew (macOS)**:
+1. **Install SFML and install via Homebrew (macOS)**:
    ```bash
    # Install Homebrew if not already installed
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
