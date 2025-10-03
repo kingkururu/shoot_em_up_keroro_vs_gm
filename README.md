@@ -3,9 +3,9 @@
 A 2D space shoot em up game built with C++ and SFML, featuring Keroro battling against Mobile Suit GM.
 
 ## GAME PLAY SCREENSHOTS
-<img width="1470" alt="Screenshot 2024-09-01 at 7 35 31 PM" src="https://github.com/user-attachments/assets/52520287-4f17-474d-9d34-e3a3b21970fa">
-<img width="1470" alt="Screenshot 2024-09-01 at 7 34 05 PM" src="https://github.com/user-attachments/assets/0c98634b-fbdb-4fbe-b5ad-dc8942557dd3">
-<img width="1470" alt="Screenshot 2024-09-01 at 7 34 38 PM" src="https://github.com/user-attachments/assets/f87599fd-e5e7-4b35-903a-be09aa12ce03">
+<img width="999" height="822" alt="Image" src="https://github.com/user-attachments/assets/6510405a-2d3a-41be-aca7-0bd46a0fb7db" />
+<img width="1041" height="841" alt="Image" src="https://github.com/user-attachments/assets/1265438f-e317-4237-ba97-195b1cf7dc67" />
+<img width="1052" height="842" alt="Image" src="https://github.com/user-attachments/assets/3be1dd09-1a37-4cc8-91fd-eed8d26d7ea0" />
 
 ## Objective
 Eliminate all incoming GM robots before they reach your character. Survive as long as possible and aim for the fastest completion time!
